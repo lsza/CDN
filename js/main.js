@@ -523,7 +523,7 @@ if( $('.post-like').length ){
             }
 
             $.ajax({
-                url: jsui.uri + '/action/like.php',
+                url: '//blog.lsza.net/wp-content/themes/dux/action/like.php',
                 type: 'POST',
                 dataType: 'json',
                 data: {

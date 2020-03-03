@@ -2623,6 +2623,79 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .swiper-fixed{overflow: hidden;}
 .article-swiper-no-transition{ transition-duration: 0ms !important;}
 .article-swiper-container{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: #000;z-index: 99999;}
+/** ====================最新文章样式==================== */
+.new-posts-excerpt{
+	position: relative;
+	margin: 20px 0 0;
+	border: 0;
+	padding: 0 15px;
+	border-radius: 0;
+	color: #555;
+	background: #fff;
+	overflow: hidden;
+}
+.new-posts-excerpt .new-posts-title{
+	display: block;
+	position: relative;
+	height: 50px;
+	margin: 0;
+	border: 0;
+	padding: 10px;
+	border-bottom: 2px solid #eee;
+	line-height: 30px;
+	font-size: 18px;
+}
+.new-posts-excerpt .new-posts-title h3{
+	display: block;
+	max-width: 120px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #555;
+	font-weight: normal;
+	background: none;
+	overflow: hidden;
+}
+.new-posts-excerpt .new-posts-title h3:after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	bottom: -2px;
+	left: 0;
+	background: #24A0F0;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: width 0.5s;
+}
+.new-posts-excerpt .new-posts-title h3:hover:after{
+	width: 100px;
+}
+.new-posts-excerpt .new-posts-title .more{
+	float: right;
+	display: block;
+	max-width: 360px;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #999;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	white-space: nowrap;
+}
+.new-posts-excerpt .new-posts-title .more a{
+	color: #999;
+	text-decoration: none;
+}
+.new-posts-excerpt .new-posts-title .more a:hover{
+	color: #24a0f0;
+}
+
 
 @media (max-width:640px){
 	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{bottom: 3px;}
