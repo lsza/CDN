@@ -350,7 +350,7 @@ body{background-color:#f6f6f6;position:relative;	/*margin-top: 79px;*/}
 .article-meta{font-size:14px;color:#999;}
 .article-meta .item{margin-right:20px;}
 /*文章字体大小*/
-.article-content{font-size:16px;line-height:27px;word-wrap:break-word;}
+.article-content{font-size:16px;line-height:27px;word-wrap:break-word;} 
 .article-content img{margin: 5px 0; display:block;max-width:100%;height:auto}
 .article-content h3, .article-content h4, .article-content h5{padding:0 0;margin:20px 0;color: #555;font-weight:bold;}
 .article-content h1, 
