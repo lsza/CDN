@@ -341,7 +341,7 @@ body{background-color:#f6f6f6;position:relative;	/*margin-top: 79px;*/}
 
 
 
-/* article content ======================================================================================================== */
+/* article content 文章内容=========================================================================== */
 .article-header{margin-bottom:20px;padding:25px 0;border-bottom:1px solid #eee;text-align:center;}
 .article-title{margin-top:0;font-size:26px;line-height:36px;}
 .article-title a,
@@ -2648,7 +2648,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 }
 .new-posts-excerpt .new-posts-title h3{
 	display: block;
-	max-width: 120px;
+	max-width: 180px;	/*解决最近更新后方无页数的问题*/
 	height: 100%;
 	margin: 0;
 	padding: 0;
